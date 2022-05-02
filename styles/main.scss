@@ -1,0 +1,13 @@
+@import "settings/reset";
+@import "settings/variables";
+
+@import "layouts/container";
+
+@import "components/start";
+@import "components/hangman";
+@import "components/word";
+@import "components/lives";
+@import "components/others";
+
+@import "utils/flex";
+@import "utils/misc";
