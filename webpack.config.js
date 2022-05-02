@@ -2,7 +2,7 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./app.js", //entry point of webpack and not browser , browsers entry point is always index.html
-  mode: "development",
+  mode: "production",
   module: {
     rules: [
       {
